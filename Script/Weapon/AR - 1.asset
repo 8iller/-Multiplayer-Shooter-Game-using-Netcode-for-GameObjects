@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0c53554ce556040bc38491a1a7cb20, type: 3}
+  m_Name: AR - 1
+  m_EditorClassIdentifier: 
+  WeaponPrefab: {fileID: 2336555170174120158, guid: 41b1038c4481a854092ac3410e44f57d,
+    type: 3}
+  HeadDamage: 100
+  bodyDamage: 40
+  LegDamage: 17
+  HandDamage: 20
+  WeaponMagSize: 30
+  WeaponAmmoLeft: 90
+  WeaponReloadTimer: 5
+  FireRatePerSec: 14
+  HitVfx: {fileID: 7723875504302586909, guid: 9f5fbcfb6299c2b4c912f3ff44f14463, type: 3}
+  Bullet: {fileID: 2819421533430116190, guid: 9fc5deab5fef94d41b92a7112049f302, type: 3}
+  BulletHoles: {fileID: 5955385894507172723, guid: 15842934c960f4e459d41591d48ceedf,
+    type: 3}
+  NonAuto: 0
+  DeadVfx: {fileID: 0}
+  BulletSound: {fileID: 8300000, guid: a84539a5028bce047b6fc0bc618d1d53, type: 3}
+  FireVfx: {fileID: 0}
